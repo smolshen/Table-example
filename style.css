@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.table-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #5a5a8f;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tfoot {
+    background-color: #f1f1f1;
+}
+
+tfoot td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+
+.footer-label {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+.combine-row {
+    text-align: right;
+}
+
+.combine-shipment {
+    background-color: #5a5a8f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
